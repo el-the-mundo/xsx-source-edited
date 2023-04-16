@@ -120,7 +120,7 @@ function library:GetJobId()
 end
 
 function library:Rejoin()
-    TeleportService:TeleportToPlaceInstance(library:GetPlaceId(), library:GetJobId(), library:GetUserId())
+    game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId)
 end
 
 function library:Copy(input) -- only works with synapse
