@@ -196,7 +196,7 @@ function library:UnlockFps(new) -- syn only
 end
 
 function library:Close()
-    if 
+    
 end
 
 function library:Watermark(text)
