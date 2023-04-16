@@ -784,7 +784,7 @@ function library:Introduction()
     xsx.BackgroundTransparency = 1.000
     xsx.Size = UDim2.new(0, 80, 0, 21)
     xsx.Font = Enum.Font.Code
-    xsx.Text = "powered by xsx"
+    xsx.Text = "Loading Untitled Hub..."
     xsx.TextColor3 = Color3.fromRGB(124, 124, 124)
     xsx.TextSize = 10.000
     xsx.TextTransparency = 1
@@ -932,17 +932,7 @@ function library:Init(key)
     headerLabel.TextXAlignment = Enum.TextXAlignment.Left
     headerLabel.RichText = true
 
-    headerLabel.Name = "headerLabel2"
-    headerLabel.Parent = background
-    headerLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    headerLabel.BackgroundTransparency = 1.000
-    headerLabel.Size = UDim2.new(0, 592, 0, 38)
-    headerLabel.Font = Enum.Font.Code
-    headerLabel.Text = "Right Alt - Hide UI"
-    headerLabel.TextColor3 = Color3.fromRGB(198, 198, 198)
-    headerLabel.TextSize = 16.000
-    headerLabel.TextXAlignment = Enum.TextXAlignment.Right
-    headerLabel.RichText = true
+
 
     headerPadding.Name = "headerPadding"
     headerPadding.Parent = headerLabel
@@ -1031,6 +1021,18 @@ function library:Init(key)
     containerCorner.CornerRadius = UDim.new(0, 2)
     containerCorner.Name = "containerCorner"
     containerCorner.Parent = container
+
+    headerLabel.Name = "headerLabel2"
+    headerLabel.Parent = background
+    headerLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    headerLabel.BackgroundTransparency = 1.000
+    headerLabel.Size = UDim2.new(0, 592, 0, 38)
+    headerLabel.Font = Enum.Font.Code
+    headerLabel.Text = "Right Alt - Hide UI"
+    headerLabel.TextColor3 = Color3.fromRGB(198, 198, 198)
+    headerLabel.TextSize = 16.000
+    headerLabel.TextXAlignment = Enum.TextXAlignment.Right
+    headerLabel.RichText = true
 
     containerGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(34, 34, 34)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(28, 28, 28))}
     containerGradient.Rotation = 90
